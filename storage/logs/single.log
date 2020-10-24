@@ -1,0 +1,7 @@
+2020-10-23 18:02:31 - ERROR - ResponseError in /Users/craigderington/Projects/todos/bootstrap/start.py on line 38
+2020-10-23 18:05:14 - ERROR - ResponseError in /Users/craigderington/Projects/todos/bootstrap/start.py on line 38
+2020-10-23 18:05:42 - ERROR - ResponseError in /Users/craigderington/Projects/todos/bootstrap/start.py on line 38
+2020-10-23 23:14:44 - ERROR - TemplateSyntaxError in /Users/craigderington/Projects/todos/resources/templates/todos.html on line 27
+2020-10-24 00:11:13 - ERROR - SyntaxError in /Users/craigderington/Projects/todos/bootstrap/start.py on line 38
+2020-10-24 00:11:54 - ERROR - SyntaxError in /Users/craigderington/Projects/todos/bootstrap/start.py on line 38
+2020-10-24 00:12:15 - ERROR - SyntaxError in /Users/craigderington/Projects/todos/bootstrap/start.py on line 38

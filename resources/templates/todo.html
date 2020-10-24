@@ -1,0 +1,42 @@
+{% if exists ("auth/base") %}
+    {% extends "auth/base.html" %}
+{% else %}
+    {% extends "base.html" %}
+{% endif %}
+
+{% block css %}
+<!-- Application CSS -->
+<link href="/static/style.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block title %} 
+    Welcome To {{ config('application.name', 'Masonite') }} 
+{% endblock %}
+
+
+    {% block content %}
+        <div class="container text-center">
+            <div class="title m-b-md">
+                Todo:
+            </div>
+
+            <div class="links">
+                {{ todo.name }} <br />
+                {{ todo.description }} <br />
+                {{ todo.user.name }}
+                {{ todo.user.email }}
+            </div>
+            
+        </div>
+
+        <hr />
+        <br /><br />
+        <div class="links">
+            {% for activity in todo.user.todos %}
+                {{ activity.name }}
+                {{ activity.description }}
+                <br />
+            {% endfor %}
+        </div>
+        
+    {% endblock %}
